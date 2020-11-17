@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: #212529;
+}
+.subtext{
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+	
+}
+.header-area.sticky .navbar-default{
+	background-color: #884bdf;
+}
+#hero{
+	background-image:url("../img/bg-hero.jpg");
+	padding:15%;
+	background-size:cover;
+	background-position:center;
+}
+h1{
+font-weight:bolder;
+}
+#booknow{
+	margin-top:-2%;
+	
+}
+#booknow h2{
+	color:#0078aa ;
+}
+
+.box-hero{
+background-color: #CCF8F9;
+	border-radius:5px;
+	padding:15% 5% 15% 5%;
+	margin-top:2%;
+}
+.heroicon{
+	font-size:40px;
+	color:#0078aa ;
+	
+}
+.box-hero2{
+	background-color: #d4fdfe;
+	border-radius:5px;
+	padding:15%;
+position:relative;
+
+}
+.boton-blanco{
+	padding:15px 25px 15px 25px;
+	background-color: white;
+	color:black;
+	border:none;
+	border-radius: 30px;
+	font-weight:bold;
+	font-size:12px;
+}
+#about{
+	margin-top:5%;
+}
+#departments{
+	background-image:url("../img/bg-rectangle.jpg");
+	padding:3%;
+	text-align:center;
+	
+}
+.dep-box{
+	text-align:left;
+	background-color:white;
+	padding:5%;
+	border-radius:15px;
+}
+#departments .col-md-4{
+	padding:5%;
+}
+#doctor{
+	padding:5% 5% 0%;
+}
+.boton-verde{
+	padding:15px 25px 15px 25px;
+	background-color: #3ce2ad;
+	color:white;
+	border:none;
+	border-radius: 30px;
+	font-weight:bold;
+	font-size:12px;
+}
+.boton-azul{
+	padding:15px 25px 15px 25px;
+	background-color: #0078aa;
+	color:white;
+	border:none;
+	border-radius: 30px;
+	font-weight:bold;
+	font-size:12px;
+	
+}
+.dentist{
+	float:right;
+}
+
+#count{
+	padding:10% 5% 10% 5%;
+	text-align:center;
+	background-color:#f4f4f4;
+	
+}
+.count-text{
+	font-weight:bolder;
+	font-size:60px;
+}
+#pricing{
+	padding:5%;
+	text-align:center;
+	background-image:url("../img/bg-offers.jpg");
+	background-size:cover;
+	background-position: center;
+}
+.pricing-box{
+	margin-top:10%;
+	background-color:#d4fdfe;
+	padding:20%;
+	z-index:1;
+}
+.pricing-box-blanca{
+	background-color:white;
+	padding:30%;
+	box-shadow:0px 0px 5px 2px #eceaea;
+	z-index:2;
+	position:relative;
+}
+.money{
+	font-size:50px;
+}
+#pricing p{
+	font-family: 'Montserrat', sans-serif;
+	font-weight:700;
+	
+}
+#faq{
+	padding:10%;
+}
+#faq .boton-verde{
+	margin-top:10%;
+}
+.iconop{
+	font-size:50px;
+	text-align:right;
+	color:#3ce2ad;
+}
+.texto-icon{
+	text-align:left;
+}
+#iconinfo{
+	background-color:#f4f4f4;
+	padding:10% 0 5% 0;	
+}
+#iconinfo p{
+	font-family: 'Montserrat', sans-serif;
+	font-weight:bold;
+}
+
+#iconinfo h3{
+	text-transform: uppercase;
+	font-size:20px;
+	font-weight:bold;
+}
+.footer1{
+	font-size:15px;
+}
+ul{
+	display:block;
+	list-style-type: none;
+	font-size:20px;
+}
+.pfooter{
+	font-size:18px;
+	color:#c4c4c4;
+}
+.icon-footer{
+	font-size:35px;
+}
+footer{
+	padding:5%;
+	background-color:#1c1c1c;
+	color:white;
+}
+.footer2{
+	color:#9D9D9D;
+	text-align:center;
+	margin-top:10%;
+}
+footer h4{
+	font-size:15px;
+}
